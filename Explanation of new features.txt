@@ -1,0 +1,16 @@
+AvailablePageTypesIncludeSubclasses:
+
+Works like the AvailablePageTypes attribute but with an important difference. It will also include all subclasses of the specified page type(s).
+
+ExcludePageTypes:
+
+The page types specified will be removed from the array of available page types.
+
+enablePageTypeAlphabeticSortOverride:
+
+This is a configuration attribute where you can specify if you want PageTypeBuilder to sort your page types alphabetically for you.
+
+Add the following lines to your configuration file.
+
+<section name="pageTypeBuilder" type="PageTypeBuilder.Configuration.PageTypeBuilderConfiguration, PageTypeBuilder"/>
+<pageTypeBuilder enablePageTypeAlphabeticSortOverride="true" />
